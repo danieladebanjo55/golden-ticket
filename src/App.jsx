@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import HowTo from "./components/HowTo/HowTo";
 import Tokenomics from "./components/Tokenomics/Tokenomics";
+import Community from "./components/Community/Community";
 import Footer from "./components/Footer/Footer";
 import Algorithm from "./components/Algorithm/Algorithm";
 
@@ -18,8 +19,9 @@ function App() {
       <About />
       <Algorithm />
       <HowTo />
-      {/* <Tokenomics />
-      <Footer /> */}
+      <Tokenomics />
+      {/* <Community /> */}
+      {/* <Footer /> */}
     </>
   );
 }

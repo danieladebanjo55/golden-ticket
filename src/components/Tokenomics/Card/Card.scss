@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: auto;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: rgba(142, 10, 107, 0.61);
+  margin: 3px;
+}
+
+h2 {
+  font-family: "Lobster", cursive;
+  font-size: 24px;
+  color: #fff;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+p:last-child {
+  font-size: 16px;
+}
