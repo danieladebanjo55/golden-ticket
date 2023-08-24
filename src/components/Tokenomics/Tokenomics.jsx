@@ -1,15 +1,29 @@
 import React from "react";
 import Card from "./Card/Card";
 import "./Tokenomics.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Tokenomics() {
+  AOS.init();
   return (
     <>
       <section className="token__container">
         <div className="token-overlay"></div>
         <div className="token__content">
-          <h2 className="title">Tokenomics</h2>
-          <div className="card__container">
+          <h2
+            className="title"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+          >
+            Tokenomics
+          </h2>
+          <div
+            className="card__container"
+            data-aos="slide-left"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1100"
+          >
             <Card title="Name" subtitle="Golden Ticket" />
             <Card title="Symbol" subtitle="$TICKET" />
             <Card title="Chain" subtitle="Ethereum" />
