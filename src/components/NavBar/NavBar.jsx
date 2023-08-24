@@ -14,7 +14,7 @@ export default function NavBar() {
     <header>
       <h3 className="logo">Golden Ticket</h3>
       <nav ref={navRef}>
-        <a href="/">About</a>
+        <a href="#About">About</a>
         <a href="/">Algorithm</a>
         <a href="/">How To Play</a>
         <a href="/">Tokenomics</a>

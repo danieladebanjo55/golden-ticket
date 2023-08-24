@@ -11,7 +11,7 @@ export default function About() {
 
   return (
     <>
-      <section className="about">
+      <section className="about" id="About">
         <div className="left_side">
           <div className="image_container">
             <img src={candyman} />
