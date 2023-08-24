@@ -10,6 +10,10 @@
     justify-content: center;
     text-align: center;
     color: #fff;
+    scroll-snap-type: y mandatory;
+    &.proximity {
+      scroll-snap-type: y proximity;
+    }
   }
   
   .hero-overlay {
@@ -22,6 +26,7 @@
   }
   
   .hero-content {
+    scroll-snap-align: start;
     z-index: 1;
   }
 

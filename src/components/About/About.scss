@@ -1,0 +1,119 @@
+/* AboutSection.css */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #232323;
+  color: #fff;
+  padding: 10px 5px;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  scroll-snap-type: y mandatory;
+  &.proximity {
+    scroll-snap-type: y proximity;
+  }
+
+  .about-content {
+    scroll-snap-align: start;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .left_side {
+    .image_container {
+      padding: 10px;
+
+      img {
+        width: 500px;
+        height: auto;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        img {
+          width: 350px;
+        }
+      }
+    }
+  }
+
+  .right_side {
+    text-align: left;
+
+    .about-text {
+      font-family: "Lobster", cursive;
+      font-size: 50px;
+    }
+
+    .about-subtext {
+      padding: 0 10px;
+      font-family: "Montserrat", sans-serif;
+      word-wrap: break-word;
+    }
+
+    @media only screen and (max-width: 1024px) {
+      .about-subtext {
+        font-size: 16px;
+        height: 300px;
+        overflow: hidden;
+        word-break: keep-all;
+      }
+    }
+
+    .learn-more-button {
+      display: none;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      background-color: #ff9900;
+      color: #fff;
+      font-size: 20px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .learn-more-button:hover {
+      background-color: #ffcc33;
+    }
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .about {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .about-text {
+    text-align: center;
+    padding-top: 13px;
+  }
+
+  .about-subtext {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .left_side {
+    border: 4px solid purple;
+  }
+
+  .right_side {
+    padding: 0 30px;
+  }
+}
