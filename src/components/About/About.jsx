@@ -30,9 +30,7 @@ export default function About() {
             pool, and a transaction link. Winning ETH is sent directly to their
             wallet via our smart contract. Winners also keep their $TICKET
             tokens. Non-winners aren't left out. They still get updates on
-            potential wins, the pool size, and transaction links. Plus, they
-            retain their $TICKET tokens, which they can hold or sell as they
-            wish.
+            potential wins, the pool size, and transaction links.
           </p>
           <button className="learn-more-button">Learn More</button>
         </div>

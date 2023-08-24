@@ -65,7 +65,7 @@
     @media only screen and (max-width: 1024px) {
       .about-subtext {
         font-size: 16px;
-        height: 300px;
+        height: fit-content;
         overflow: hidden;
         word-break: keep-all;
       }
@@ -104,7 +104,7 @@
 
   .about-subtext {
     text-align: center;
-    padding: 10px;
+    padding: 0px 30px 20px 30px;
   }
 }
 
