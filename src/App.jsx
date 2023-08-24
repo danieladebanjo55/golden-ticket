@@ -20,7 +20,7 @@ function App() {
       <Algorithm />
       <HowTo />
       <Tokenomics />
-      {/* <Community /> */}
+      <Community />
       {/* <Footer /> */}
     </>
   );

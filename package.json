@@ -10,11 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.14.6",
+    "@mui/material": "^5.14.6",
+    "@mui/styled-engine-sc": "^5.14.6",
+    "babel-plugin-macros": "^3.1.0",
     "framer-motion": "^10.16.1",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-modal": "^3.16.1"
+    "react-icons": "^4.10.1",
+    "react-modal": "^3.16.1",
+    "styled-components": "^5.3.11"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
