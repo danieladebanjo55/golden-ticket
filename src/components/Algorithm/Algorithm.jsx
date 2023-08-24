@@ -37,7 +37,10 @@ export default function Algorithm() {
                 contentLabel="Video Popup"
               >
                 <video autoPlay controls>
-                  <source src="./win.mp4" type="video/mp4" />
+                  <source
+                    src="https://crimson-salty-eagle-867.mypinata.cloud/ipfs/QmWg5wfz5GcT8togYffjpNQ5BNurnVDsSfGAtrJTsTdyDn"
+                    type="video/mp4"
+                  />
                   Your browser does not support the video tag.
                 </video>
               </Modal>
@@ -51,7 +54,10 @@ export default function Algorithm() {
                 contentLabel="Video Popup"
               >
                 <video autoPlay controls>
-                  <source src="./win.mp4" type="video/mp4" />
+                  <source
+                    src="https://crimson-salty-eagle-867.mypinata.cloud/ipfs/QmVD73XRajPP3wpZKmjCpdzGWzKo3vc8G8w9T5zQKsxZ66"
+                    type="video/mp4"
+                  />
                   Your browser does not support the video tag.
                 </video>
               </Modal>
