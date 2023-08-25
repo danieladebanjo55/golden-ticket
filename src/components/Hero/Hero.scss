@@ -1,78 +1,83 @@
 /* HeroSection.css */
 .hero {
-    position: relative;
-    background-image: url('image2.jpg'); /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
-    height: calc(100vh - 80px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    scroll-snap-type: y mandatory;
-    &.proximity {
-      scroll-snap-type: y proximity;
-    }
+  position: relative;
+  background-image: url("image2.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  scroll-snap-type: y mandatory;
+  &.proximity {
+    scroll-snap-type: y proximity;
   }
-  
-  .hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity as needed */
-  }
-  
-  .hero-content {
-    scroll-snap-align: start;
-    z-index: 1;
-  }
+}
 
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the overlay color and opacity as needed */
+}
+
+.hero-content {
+  scroll-snap-align: start;
+  z-index: 1;
+}
+
+.hero-text {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+}
+
+.hero-subtext {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
   .hero-text {
-    font-family: "Lobster", cursive;
-    font-size: 50px;
+    font-size: 32px;
+    padding: 0 5px;
   }
 
   .hero-subtext {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-size: 16px;
   }
+}
 
-  @media only screen and (max-width: 480px) {
-    .hero-text {
-        font-size: 36px;
-    }
+h1 {
+  font-size: 36px;
+}
 
-    .hero-subtext {
-        font-size: 16px;
-      }
-  }
-  
-  h1 {
-    font-size: 36px;
-  }
-  
-  p {
-    font-size: 18px;
-    margin-top: 10px;
-  }
-  
-  .explore-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #ff9900; /* Button background color */
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .explore-button:hover {
-    background-color: #ffcc33; /* Button background color on hover */
-  }
-  
+p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.explore-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff9900; /* Button background color */
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.explore-button:hover {
+  background-color: #ffcc33; /* Button background color on hover */
+}

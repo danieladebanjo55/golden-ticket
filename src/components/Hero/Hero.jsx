@@ -10,7 +10,9 @@ export default function Hero() {
       <div className="hero">
         <div className="hero-overlay"></div>
         <div className="hero-content">
-          <Lottie animationData={animationLottie} />;
+          <div className="lottie_animation">
+            <Lottie animationData={animationLottie} />;
+          </div>
           <h1 className="hero-text">Welcome to Golden Ticket</h1>
           <p className="hero-subtext">A Unique & Gamified Raffle System</p>
           <button className="explore-button">Explore</button>
