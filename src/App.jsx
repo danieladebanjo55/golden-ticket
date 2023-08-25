@@ -6,7 +6,6 @@ import About from "./components/About/About";
 import HowTo from "./components/HowTo/HowTo";
 import Tokenomics from "./components/Tokenomics/Tokenomics";
 import Community from "./components/Community/Community";
-import Footer from "./components/Footer/Footer";
 import Algorithm from "./components/Algorithm/Algorithm";
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
       <HowTo />
       <Tokenomics />
       <Community />
-      {/* <Footer /> */}
     </>
   );
 }

@@ -15,6 +15,7 @@ export default function Tokenomics() {
             className="title"
             data-aos="fade-up"
             data-aos-easing="ease-in-out"
+            data-aos-once="false"
           >
             Tokenomics
           </h2>
@@ -23,6 +24,7 @@ export default function Tokenomics() {
             data-aos="slide-left"
             data-aos-easing="ease-in-out"
             data-aos-duration="1100"
+            data-aos-once="false"
           >
             <Card title="Name" subtitle="Golden Ticket" />
             <Card title="Symbol" subtitle="$TICKET" />

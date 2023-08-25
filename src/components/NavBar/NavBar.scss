@@ -13,6 +13,7 @@
 }
 
 header {
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -79,6 +80,7 @@ nav .nav-btn,
     left: 0;
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,6 +92,8 @@ nav .nav-btn,
   }
 
   header .responsive_nav {
+    width: 100vw;
+    overflow: hidden;
     transform: none;
     z-index: 10;
   }
