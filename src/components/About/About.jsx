@@ -48,7 +48,6 @@ export default function About() {
             tokens. Non-winners aren't left out. They still get updates on
             potential wins, the pool size, and transaction links.
           </p>
-          <button className="learn-more-button">Learn More</button>
         </div>
       </section>
     </>

@@ -14,12 +14,6 @@
     scroll-snap-type: y proximity;
   }
 
-  .about-content {
-    scroll-snap-align: start;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
   h2 {
     font-size: 36px;
     margin-bottom: 20px;
@@ -32,6 +26,7 @@
   }
 
   .left_side {
+    flex: 0.5;
     .image_container {
       padding: 10px;
 
@@ -49,6 +44,7 @@
   }
 
   .right_side {
+    flex: 0.5;
     text-align: left;
 
     .about-text {
@@ -60,6 +56,7 @@
       padding: 0 10px;
       font-family: "Montserrat", sans-serif;
       word-wrap: break-word;
+      text-align: left;
     }
 
     @media only screen and (max-width: 1024px) {
@@ -69,24 +66,6 @@
         overflow: hidden;
         word-break: keep-all;
       }
-    }
-
-    .learn-more-button {
-      display: none;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      background-color: #ff9900;
-      color: #fff;
-      font-size: 20px;
-      padding: 12px 24px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease-in-out;
-    }
-
-    .learn-more-button:hover {
-      background-color: #ffcc33;
     }
   }
 }
