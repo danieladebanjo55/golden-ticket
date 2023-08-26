@@ -13,7 +13,7 @@ export default function Algorithm() {
 
   return (
     <>
-      <section className="main__container">
+      <section className="main__container" id="Algorithm">
         <div className="overlay"></div>
         <div className="container">
           <div

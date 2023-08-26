@@ -8,7 +8,7 @@ export default function Tokenomics() {
   AOS.init();
   return (
     <>
-      <section className="token__container">
+      <section className="token__container" id="Tokenomics">
         <div className="token-overlay"></div>
         <div className="token__content">
           <h2

@@ -9,7 +9,7 @@ export default function HowTo() {
   AOS.init();
   return (
     <>
-      <section className="how__container">
+      <section className="how__container" id="HowTo">
         <Animation />
         <h2
           className="title"

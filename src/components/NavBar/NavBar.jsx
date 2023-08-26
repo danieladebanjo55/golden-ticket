@@ -15,10 +15,10 @@ export default function NavBar() {
       <h3 className="logo">Golden Ticket</h3>
       <nav ref={navRef}>
         <a href="#About">About</a>
-        <a href="/">Algorithm</a>
-        <a href="/">How To Play</a>
-        <a href="/">Tokenomics</a>
-        <a href="/">Community</a>
+        <a href="#Algorithm">Algorithm</a>
+        <a href="#HowTo">How To Play</a>
+        <a href="#Tokenomics">Tokenomics</a>
+        <a href="#Community">Community</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <i className="fa fa-times"></i>
         </button>

@@ -7,7 +7,7 @@ import Website from "../assets/website.png";
 export default function Community() {
   return (
     <>
-      <section className="my_container">
+      <section className="my_container" id="Community">
         <h2 className="my_title">Our Golden Community</h2>
         <div className="community_content">
           <img src={Facebook} alt="facebook" />
