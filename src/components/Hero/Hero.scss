@@ -14,14 +14,16 @@
   &.proximity {
     scroll-snap-type: y proximity;
   }
+  z-index: 10;
 }
 
 .hero-overlay {
   position: absolute;
+  overflow-y: hidden;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: fit-content;
   background-color: rgba(
     0,
     0,
@@ -33,6 +35,8 @@
 .hero-content {
   scroll-snap-align: start;
   z-index: 1;
+  position: absolute;
+  overflow-y: none;
 }
 
 .hero-text {
@@ -80,4 +84,21 @@ p {
 
 .explore-button:hover {
   background-color: #ffcc33; /* Button background color on hover */
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero {
+    padding: 100px 0;
+  }
+}
+
+.lottie_animation {
+  position: relative;
+  height: 400px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .lottie_animation {
+    height: 350px !important;
+  }
 }

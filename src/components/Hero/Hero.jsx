@@ -11,7 +11,10 @@ export default function Hero() {
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <div className="lottie_animation">
-            <Lottie animationData={animationLottie} />;
+            <Lottie
+              animationData={animationLottie}
+              style={{ overflow: "hidden", height: "350px", width: "auto" }}
+            />
           </div>
           <h1 className="hero-text">Welcome to Golden Ticket</h1>
           <p className="hero-subtext">A Unique & Gamified Raffle System</p>

@@ -3,11 +3,14 @@ import "./HowTo.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import Animation from "./Animation";
+
 export default function HowTo() {
   AOS.init();
   return (
     <>
       <section className="how__container">
+        <Animation />
         <h2
           className="title"
           data-aos="fade-up"
@@ -18,7 +21,7 @@ export default function HowTo() {
         </h2>
 
         <p
-          className="zoom-in"
+          className="how_content"
           data-aos="fade-up"
           data-aos-once="false"
           data-aos-easing="ease-in-out"

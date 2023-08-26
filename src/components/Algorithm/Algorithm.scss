@@ -15,6 +15,7 @@
   &.proximity {
     scroll-snap-type: y proximity;
   }
+  z-index: 20;
 
   .container {
     display: flex;
