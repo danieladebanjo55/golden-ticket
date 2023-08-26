@@ -95,9 +95,17 @@ p {
 .lottie_animation {
   position: relative;
   height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 1024px) {
+  .lottie_animation {
+    height: 350px !important;
+  }
+}
+@media only screen and (max-width: 800px) {
   .lottie_animation {
     height: 350px !important;
   }

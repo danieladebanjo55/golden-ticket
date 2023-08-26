@@ -5,6 +5,7 @@ import { useState } from "react";
 import Modal from "react-modal";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import VideoSlider from "./SlideShow/Slideshow";
 
 export default function Algorithm() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -41,7 +42,7 @@ export default function Algorithm() {
               Total Supply
             </b>
           </div>
-          <div className="buttons">
+          {/* <div className="buttons">
             <div
               className="btn-1"
               data-aos="flip-left"
@@ -86,6 +87,22 @@ export default function Algorithm() {
                 </video>
               </Modal>
             </div>
+          </div> */}
+          <div className="video_container">
+            <video autoPlay="true" controls>
+              <source
+                src="https://crimson-salty-eagle-867.mypinata.cloud/ipfs/QmWg5wfz5GcT8togYffjpNQ5BNurnVDsSfGAtrJTsTdyDn"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <video autoPlay controls>
+              <source
+                src="https://crimson-salty-eagle-867.mypinata.cloud/ipfs/QmWg5wfz5GcT8togYffjpNQ5BNurnVDsSfGAtrJTsTdyDn"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </section>
