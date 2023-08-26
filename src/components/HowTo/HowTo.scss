@@ -42,3 +42,13 @@
     height: 130vh !important;
   }
 }
+
+@media only screen and (max-width: 420px) {
+  .title {
+    text-align: left !important;
+  }
+
+  .how_content {
+    text-align: left !important;
+  }
+}

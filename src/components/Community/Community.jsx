@@ -10,9 +10,15 @@ export default function Community() {
       <section className="my_container" id="Community">
         <h2 className="my_title">Our Golden Community</h2>
         <div className="community_content">
-          <img src={Facebook} alt="facebook" />
-          <img src={Twitter} alt="twitter" />
-          <img src={Website} alt="website" />
+          <a href="#">
+            <img src={Facebook} alt="facebook" />
+          </a>
+          <a href="#">
+            <img src={Twitter} alt="twitter" />
+          </a>
+          <a href="#">
+            <img src={Website} alt="website" />
+          </a>
         </div>
         <div className="my_footer">
           <p className="footer_text">
